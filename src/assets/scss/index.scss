@@ -1,0 +1,10 @@
+// GLOBAL
+@use './base';
+@use './variables';
+
+// PAGES
+@use './pages/home/home';
+
+
+// COMPONENTS
+@use './components/mainBgColor'

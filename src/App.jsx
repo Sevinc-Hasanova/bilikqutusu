@@ -1,8 +1,13 @@
 import React from 'react'
+import WebRoutes from './Routes/WebRoutes'
+import MainBackgroundColor from './Components/MainBackgroundColor'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <MainBackgroundColor/>
+    <WebRoutes/>
+    </>
   )
 }
 
