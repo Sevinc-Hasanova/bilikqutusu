@@ -1,13 +1,15 @@
 import React from 'react'
 import WebRoutes from './Routes/WebRoutes'
-import MainBackgroundColor from './Components/MainBackgroundColor'
+import Header from './Components/Header'
 
 const App = () => {
   return (
-    <>
-    <MainBackgroundColor/>
+    <div className='mainBgColor'>
+    <div className='appContainer'>
+      <Header/>
     <WebRoutes/>
-    </>
+    </div>
+    </div>
   )
 }
 

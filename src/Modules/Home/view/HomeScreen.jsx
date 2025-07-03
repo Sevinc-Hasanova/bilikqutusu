@@ -2,7 +2,11 @@ import React from 'react'
 
 const HomeScreen = () => {
   return (
-    <div id='home'>HomeScreen</div>
+      <div id='home'>
+      <div className="container">
+        HomeScreen
+      </div>
+    </div>
   )
 }
 
