@@ -1,2 +1,61 @@
 #home{
+    color: white;
+    // color: black;
+    display: flex;
+    
+    .homeDetails{
+        width: 60%;
+        margin:  0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    .homeTitle{
+        font-size: 70px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        // letter-spacing: 2px;
+        text-shadow: 0 0 4px black;
+    }//homeTitle
+    .homeDescription{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0 0 2px black;
+    }//homeDescription
+    .homeStartButton{
+        width: 400px;
+        font-size: 25px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: #51b803;
+        color: white;
+        text-shadow: 0 0 5px black;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all .5s ease;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        &:active{
+            transform: scale(0.9);
+        }
+    }//homeStartButton
+
+    .homeImg{
+        width: 70%;
+        height: 300px;
+        // border: solid;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }//homeImg
+    }
 }
