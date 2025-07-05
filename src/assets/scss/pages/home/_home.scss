@@ -1,3 +1,26 @@
+@font-face {
+    font-family: antonio-bold;
+    src: url(../../../fonts/Antonio-Bold.ttf);
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url(../../../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(../../../fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(../../../fonts/Pacifico-Regular.ttf);
+}
+
+
+
+
 #home{
     color: white;
     // color: black;
@@ -17,12 +40,16 @@
         text-align: center;
         // letter-spacing: 2px;
         text-shadow: 0 0 4px black;
+        // font-family: bebasneue;
+        font-family: oswald;
+        
     }//homeTitle
     .homeDescription{
         font-size: 20px;
         text-align: center;
         letter-spacing: 1px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        // font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family:pacifico;
         text-shadow: 0 0 2px black;
     }//homeDescription
     .homeStartButton{

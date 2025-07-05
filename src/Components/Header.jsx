@@ -11,16 +11,16 @@ const Header = () => {
         </Link>
         <nav>
             <ul className='navList'>
-                <li className="navItem examBox">İmtahanlar</li>
-                <li className="navItem resultBox">Nəticələr</li>
-                <li className="navItem accountBox">Hesab</li>
-                <li className="navItem help">Yardım</li>
+                <li className="navItem home"><Link>Ana səhifə</Link></li>
+                <li className="navItem examBox"><Link>İmtahanlar</Link></li>
+                <li className="navItem accountBox"><Link>Hesab</Link></li>
+                <li className="navItem about"><Link>Haqqımızda</Link></li>
+                <li className="navItem help"><Link>Yardım</Link></li>
             </ul>
         </nav>
 
         <div className="headerControls">
             <div>dil secimi</div>
-            <div>dark/light</div>
         </div>
     </header>
   )
