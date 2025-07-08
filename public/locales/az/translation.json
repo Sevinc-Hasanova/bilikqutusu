@@ -1,0 +1,14 @@
+{
+    "header" : {
+        "home":"Ana səhifə",
+        "exams":"Imtahanlar",
+        "account":"Hesab",
+        "about":"Haqqımızda",
+        "language":"Dil"
+    },
+    "home": {
+    "title": "Qarşıdakı uğurun üçün ilk addımı at!",
+    "description": "Uğurlu bir texniki müsahibə, yalnız bilik deyil — zamanında hazırlıq, praktiki təcrübə və doğru yanaşma tələb edir",
+    "button": "Təcrübə imtahanına başla"
+    }
+}

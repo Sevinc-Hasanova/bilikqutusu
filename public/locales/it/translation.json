@@ -1,0 +1,14 @@
+{
+  "header": {
+    "home": "Home",
+    "exams": "Esami",
+    "account": "Account",
+    "about": "Chi siamo",
+    "language": "Lingua"
+  },
+  "home": {
+    "title": "Fai il primo passo verso il tuo successo futuro!",
+    "description": "Un colloquio tecnico di successo richiede non solo conoscenza, ma anche preparazione, esperienza pratica e il giusto approccio.",
+    "button": "Inizia l'esame di prova"
+  }
+}

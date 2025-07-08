@@ -1,7 +1,7 @@
 #header{
     display: flex;
-    justify-content: space-between;
-    padding: 15px;
+    // justify-content: space-between;
+    padding: 15px 30px;
     align-items: center;
     margin-bottom: 32px;
     background-color: white;
@@ -11,6 +11,12 @@
     .logo{
         display: flex;
         align-items: center;
+        transition: 0.4s ease;
+        width: 30%;
+
+        &:hover{
+            transform: scale(1.04);
+        }
         img{
             width: 50px;
             height:50px;
@@ -22,30 +28,69 @@
   font-size: 30px;
   color: #58CC02; // Duolingo yeşili ana renk
   background: linear-gradient(45deg, #58CC02, #A6E22E);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: color 0.3s ease, text-shadow 0.3s ease;
   cursor: pointer;
   text-decoration: none;
+//   transition: .4s ease;
 
   &:hover {
-    color: #3E7B00; // Koyu yeşil hover rengi
-    text-shadow: 0 0 8px #A6E22E;
+    // transform: scale(1.03);
   }
         }
     }
 
     nav{
+        width: 40%;
+        // border: solid;
         .navList{
             display: flex;
-            border: solid;
-            gap: 40px;
+            justify-content: space-between;
+            // border: solid;
+            gap: 10px;
+            // border: solid;
+
+            .navItem{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+                // border: 1px solid red;
+                height: 40px;
+
+                a{
+                    color: black;
+                    font-size: 18px;
+                    font-weight: bold;
+                    transition: .4s ease;
+
+                    &:hover{
+                        transform: translateY(-5px);
+                    }
+                }
+            }
         }
     }
 
     .headerControls{
+        width: 30%;
+        justify-content: flex-end;
         display: flex;
-        gap: 40px;
-        border: solid;
+        align-items: center;
+
+        svg{
+            color: #4169E1;
+        }
+
+        select{
+            border: none;
+            transform: translateY(-5px);
+            margin-left: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+        // gap: 40px;
+        // border: solid;
     }
 }

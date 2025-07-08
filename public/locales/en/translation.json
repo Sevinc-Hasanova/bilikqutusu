@@ -1,0 +1,14 @@
+{
+  "header": {
+    "home": "Home",
+    "exams": "Exams",
+    "account": "Account",
+    "about": "About Us",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Take the first step toward success!",
+    "description": "A successful technical interview requires not only knowledge — it also demands preparation, practical experience, and the right mindset.",
+    "button": "Start the practice exam"
+  }
+}
