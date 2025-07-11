@@ -1,0 +1,14 @@
+{
+  "header": {
+    "home": "Startseite",
+    "exams": "Prüfungen",
+    "account": "Konto",
+    "about": "Über uns",
+    "language": "Sprache"
+  },
+  "home": {
+    "title": "Mach den ersten Schritt zu deinem zukünftigen Erfolg!",
+    "description": "Ein erfolgreiches technisches Interview erfordert nicht nur Wissen — sondern auch rechtzeitige Vorbereitung, praktische Erfahrung und den richtigen Ansatz.",
+    "button": "Mit der Probeprüfung beginnen"
+  }
+}

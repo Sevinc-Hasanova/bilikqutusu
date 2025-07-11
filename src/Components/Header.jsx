@@ -35,6 +35,7 @@ const Header = () => {
             <option value="it">IT</option>
             <option value="zh">ZH</option>
             <option value="ja">JA</option>
+            <option value="de">DE</option>
           </select>
          </div>
         </div>
