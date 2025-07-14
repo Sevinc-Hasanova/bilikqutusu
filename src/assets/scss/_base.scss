@@ -19,3 +19,7 @@ body{
     border-radius: 10px;
     // outline: 15px solid rgba(white, .3);
 }
+
+::-webkit-scrollbar{
+    display: none;
+}

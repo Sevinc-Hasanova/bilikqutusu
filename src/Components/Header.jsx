@@ -12,14 +12,14 @@ const Header = () => {
   }
   return (
     <header id='header'>
-        <Link className="logo">
+        <Link className="logo" to='/'>
             <img src={logo} alt="bilik qutusu logo" />
             <span>Bilik Qutusu</span>
         </Link>
         <nav>
             <ul className='navList'>
                 <li className="navItem home"><Link>{t("header.home")}</Link></li>
-                <li className="navItem examBox"><Link>{t("header.exams")}</Link></li>
+                <li className="navItem examBox"><Link to='/examroom'>{t("header.exams")}</Link></li>
                 <li className="navItem accountBox"><Link>{t("header.account")}</Link></li>
                 <li className="navItem about"><Link>{t("header.about")}</Link></li>
             </ul>

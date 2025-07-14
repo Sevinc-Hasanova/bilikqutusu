@@ -15,7 +15,7 @@ const ExamStatsAndShare = () => {
   </ul>
     </div>
 
-  <div className="share">
+  <div className="share whiteGlow">
     <div className="icon"><FaSlideshare/></div>
     <button className="shareBtn">Nəticəni paylaş</button>
   </div>
