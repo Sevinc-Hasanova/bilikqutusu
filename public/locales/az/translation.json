@@ -10,5 +10,15 @@
     "title": "Qarşıdakı uğurun üçün ilk addımı at!",
     "description": "Uğurlu bir texniki müsahibə, yalnız bilik deyil — zamanında hazırlıq, praktiki təcrübə və doğru yanaşma tələb edir",
     "button": "Təcrübə imtahanına başla"
-    }
+    },
+    "examroom" :{
+        "header":"İmtahan sahələri",
+        "startExam":"İmtahana başla"
+    },
+    "notFound": {
+  "title": "Səhifə Tapılmadı",
+  "message": "Bağışlayın, axtardığınız səhifə burada tapılmadı. İzlədiyiniz keçid səhv ola bilər və ya artıq mövcud deyil. Zəhmət olmasa yenidən cəhd edin və ya saytımıza baxın.",
+  "homeButton": "Ana Səhifə"
+}
+
 }

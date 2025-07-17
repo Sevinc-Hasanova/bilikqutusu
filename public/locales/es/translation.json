@@ -10,5 +10,15 @@
     "title": "¡Da el primer paso hacia tu éxito!",
     "description": "Una entrevista técnica exitosa requiere no solo conocimiento, sino también preparación, experiencia práctica y el enfoque correcto.",
     "button": "Comienza el examen de práctica"
-  }
+  },
+  "examroom": {
+  "header": "Campos de Examen",
+  "startExam": "Comenzar Examen"
+},
+"notFound": {
+  "title": "Página no encontrada",
+  "message": "Lo sentimos, la página que buscabas no se encuentra aquí. El enlace que seguiste puede estar roto o ya no existir. Por favor, inténtalo de nuevo o echa un vistazo a nuestro sitio.",
+  "homeButton": "Página Principal"
+}
+
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import HomeScreen from '../Modules/Home/view/HomeScreen'
 import ExamRoom from '../Modules/examroom/view/ExamRoom'
 import NotFound from '../Modules/notfound/NotFound'
@@ -11,7 +11,8 @@ const WebRoutes = () => {
         <Route path='/examroom' element={<ExamRoom/>}/>
 
 
-        <Route path='*' element={<NotFound/>}/>
+        <Route path='/not-found' element={<NotFound/>}/>
+        <Route path='*' element={<Navigate to='/not-found' />} />
     </Routes>
   )
 }

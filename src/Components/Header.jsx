@@ -18,7 +18,7 @@ const Header = () => {
         </Link>
         <nav>
             <ul className='navList'>
-                <li className="navItem home"><Link>{t("header.home")}</Link></li>
+                <li className="navItem home"><Link to="/">{t("header.home")}</Link></li>
                 <li className="navItem examBox"><Link to='/examroom'>{t("header.exams")}</Link></li>
                 <li className="navItem accountBox"><Link>{t("header.account")}</Link></li>
                 <li className="navItem about"><Link>{t("header.about")}</Link></li>

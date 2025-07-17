@@ -10,5 +10,16 @@
     "title": "Fai il primo passo verso il tuo successo futuro!",
     "description": "Un colloquio tecnico di successo richiede non solo conoscenza, ma anche preparazione, esperienza pratica e il giusto approccio.",
     "button": "Inizia l'esame di prova"
-  }
+  },
+  "examroom": {
+  "header": "Aree d'Esame",
+  "startExam": "Inizia Esame"
+},
+"notFound": {
+  "title": "Pagina non trovata",
+  "message": "Ci dispiace, la pagina che stai cercando non è stata trovata. Il link che hai seguito potrebbe essere rotto o non esistere più. Riprova o dai un’occhiata al nostro sito.",
+  "homeButton": "Pagina Iniziale"
+}
+
+
 }

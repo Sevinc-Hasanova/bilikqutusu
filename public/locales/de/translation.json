@@ -10,5 +10,15 @@
     "title": "Mach den ersten Schritt zu deinem zukünftigen Erfolg!",
     "description": "Ein erfolgreiches technisches Interview erfordert nicht nur Wissen — sondern auch rechtzeitige Vorbereitung, praktische Erfahrung und den richtigen Ansatz.",
     "button": "Mit der Probeprüfung beginnen"
-  }
+  },
+  "examroom": {
+  "header": "Prüfungsbereiche",
+  "startExam": "Prüfung Starten"
+},
+"notFound": {
+  "title": "Seite nicht gefunden",
+  "message": "Es tut uns leid, die Seite, die Sie gesucht haben, wurde hier nicht gefunden. Der Link, dem Sie gefolgt sind, ist möglicherweise defekt oder existiert nicht mehr. Bitte versuchen Sie es erneut oder werfen Sie einen Blick auf unsere Website.",
+  "homeButton": "Startseite"
+}
+
 }

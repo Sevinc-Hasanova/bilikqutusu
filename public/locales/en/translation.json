@@ -10,5 +10,14 @@
     "title": "Take the first step toward success!",
     "description": "A successful technical interview requires not only knowledge — it also demands preparation, practical experience, and the right mindset.",
     "button": "Start the practice exam"
-  }
+  },
+  "examroom": {
+  "header": "Exam Fields",
+  "startExam": "Start Exam"
+},
+"notFound":{
+  "title":"Page Not Found",
+  "message":"We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.",
+  "homeButton": "Home Page"
+}
 }
